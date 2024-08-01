@@ -46,7 +46,6 @@ data = {
             'gameSlug': '',
             'referrer': '',
         }
-# threading is a real power to make it go a few times faster.
 def send(thread_id):
     response = requests.post('https://ngl.link/api/submit', headers=headers, data=data)
 threads = []
